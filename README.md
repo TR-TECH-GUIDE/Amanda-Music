@@ -39,5 +39,5 @@ Get pyrogram (p)  `SESSION` from here:
 <a href="https://github.com/TR-TECH-GUIDE"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p>
 <p align="left">
-<a href="https://trtechguide.wordpress.com"><img src="https://img.shields.io/badge/Wordpress-Follow%20on%20Twitter-informational.svg?logo=wordpress"></a>
+<a href="https://trtechguide.wordpress.com"><img src="https://img.shields.io/badge/Wordpress-Follow%20on%20Wordpress-informational.svg?logo=wordpress"></a>
 </p>
