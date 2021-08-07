@@ -1,7 +1,5 @@
 <h1 align="centre">Amanda Music 🎵</h1>  
 
-![GitHub repo size](https://img.shields.io/github/repo-size/TR-TECH-GUIDE/Amanda-Music?label=Repo%20Size)
-
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 ### Available on telegram as [@Amanda Music](http://t.me/TheAmandaMusicbot)
 
