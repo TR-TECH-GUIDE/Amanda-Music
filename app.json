@@ -1,0 +1,116 @@
+{
+  "name": "Amanda Music",
+  "logo": "https://telegra.ph/file/e8f3eedc2f4a286a9fe7e.jpghttps://telegra.ph/file/e8f3eedc2f4a286a9fe7e.jpg",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/TR-TECH-GUIDE/Amanda-Music",
+  "stack": "container",
+  "buildpacks": [
+   {
+     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+   }   
+  ],        
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather",
+      "required": true,
+      "value": ""
+    },
+    "BOT_USERNAME": {
+      "description": "Your bot's username without @",
+      "required": true,
+      "value": "TheAmandabot"
+    },
+    "BOT_NAME": {
+      "description": "Your MusicPlayer Bot Name.",
+      "required": false,
+      "value": "Amanda Music"
+    },
+    "SUPPORT_GROUP": {
+      "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
+      "required": false,
+      "value": "trtechguide"
+    },
+    "PROJECT_NAME": {
+      "description": "Your MusicPlayer project Name.",
+      "required": false,
+      "value": "Amanda-Music"
+    },
+    "ASSISTANT_NAME": {
+      "description": "Your MusicPlayer's assistant Username without @.",
+      "required": true,
+      "value": "TheAmandabot"
+    },
+    "ARQ_API_KEY": {
+      "description": "Get from @ARQRobot.",
+      "required": false,
+      "value": ""
+    },    
+    "BG_IMAGE": {
+      "description": "BG image of bot (Use transparent one) [IGNORE].",
+      "required": false,
+      "value": "https://trtechguide.files.wordpress.com/2021/07/untitled-design-2.png"
+    },     
+    "UPDATES_CHANNEL": {
+      "description": "Updates Channel without @ [Leave this if you don't have one].",
+      "required": false,
+      "value": "SLBotsofficial"
+    },    
+    "API_ID": {
+      "description": "App ID from my.telegram.org/apps",
+      "required": true
+    },
+    "PMPERMIT": {
+      "description": "Change to turn off",
+      "required": false,
+      "value": "ENABLE"
+    },    
+    "API_HASH": {
+      "description": "App hash from my.telegram.org/apps",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": true,
+      "value": "1202064253 996634013"
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "120"
+    },
+    "OWNER_ID": {
+      "description": "Telegram Id Of yours!",
+      "required": true
+    },
+    "LOG_CHANNEL": {
+      "description": "Log Channel Where Bot Logs Go!",
+      "required": true,
+      "value": ""
+    },
+    "DATABASE_URL": {
+      "description": "Mongo Db url. Get it from https://www.mongodb.com/",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku App Name!",
+      "required": true,
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku Api Key!",
+      "required": true,
+      "value": ""
+    },
+    "UPSTREAM_REPO": {
+      "description": "Github Repo Url. Only needed if you are using your own Fork!",
+      "required": false,
+      "value": "https://github.com/TR-TECH-GUIDE/Amanda-Music"
+    }
+  }
+}
